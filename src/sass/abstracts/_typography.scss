@@ -1,13 +1,17 @@
-$ff-sans: "Open Sans", sans-serif;
+$ff-primary: "Open Sans", sans-serif;
 
 $font-sizes: (
-  900: 3.75rem,
-  800: 3rem,
-  600: 1.5rem,
-  500: 1.3125rem,
+  300: 1rem,
   400: 1.125rem,
+  500: 1.3125rem,
+  600: 1.5rem,
+  700: 2rem,
+  800: 3rem,
+  900: 3.75rem,
 );
 
-$fw-400: 400;
-$fw-700: 700;
+$fw-light: 300;
+$fw-regular: 400;
+$fw-bold: 700;
+$fw-black: 900;
   
