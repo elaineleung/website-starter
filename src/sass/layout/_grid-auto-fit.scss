@@ -1,0 +1,14 @@
+@use "../abstracts/" as *;
+
+.grid-auto-fit {
+  --grid-min: 250px;
+  // --grid-min: #{gridcol(760px, 2)};
+  
+  display: grid;
+  grid-gap: var(--grid-gap, $grid-gap);
+  grid-template-columns: repeat(auto-fit, minmax(min(var(--grid-min), 100%), 1fr));
+
+  // @include mq(medium) {
+  //   --grid-min: #{gridcol(1000px, 4)};
+  // }
+}

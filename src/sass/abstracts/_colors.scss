@@ -1,18 +1,17 @@
 $colors: (
-  neutral: (
-    100: white,
-    400: gray,
-    900: black,
+  "primary": (
+    100: #ffe7df,
+    400: #FF6635,
+    500: #DD4E11,
+    900: #3d1a0f,
   ),
-  primary: (
-    100: rgb(190, 211, 255),
-    400: rgb(61, 61, 255),
-    900: darkblue,
-  ),
+  "neutral": (
+    100: #FFFFFF,
+    200: #F8F8F8,
+    400: #5C5C5C,
+    900: #212121,
+  )
 );
-  
-
-
 
 // $colors: (
 //   "primary": (

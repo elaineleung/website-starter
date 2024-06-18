@@ -1,8 +1,30 @@
 $sizes: (
+  4: 0.25rem,
   8: 0.5rem,
   12: 0.75rem,
   16: 1rem,
+  18: 1.125rem,
   20: 1.25rem,
+  24: 1.5rem,
   32: 2rem,
   36: 2.25rem,
+  48: 3rem,
 );
+
+// Determine padding for sections
+$section-padding: clamp(3rem, 10vh, 7rem);
+$hero-padding: clamp(13rem, 15vh, 20rem);
+
+// Determine container variables
+$container-inline-space: clamp(1rem, 0.5rem + 3vw, 2rem);
+
+$container-max-width: 60rem;
+// $container-max-width: 58em;
+$container-max-width-wide: 80rem;
+
+// Determine component padding
+$card-body-padding: clamp(2rem, 3.5vw, 4rem);
+
+// Gaps for grid and flexboxs
+$grid-gap: 1.5rem;
+$flex-group-gap: 1.25rem;

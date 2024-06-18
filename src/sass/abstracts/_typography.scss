@@ -1,20 +1,27 @@
-$ff-primary: "Open Sans", sans-serif;
+
+$ff-primary: "Lato", Arial, sans-serif; // body text
+$ff-secondary: "Abril Fatface", Georgia, serif; // h1, h2
+
+$ff-base: $ff-primary;
+$ff-accent: $ff-secondary;
 
 $font-sizes: (
   300: 1rem, // 16px
-  400: 1.125rem, // 18px
-  500: 1.3125rem, // 
-  600: 1.5rem,
-  700: 2rem,
-  800: 3rem,
-  900: 3.75rem,
+  400: 1.125rem, // 18px,
+  500: 1.3125rem, // 21px,
+  600: clamp(1.3rem, 0.5rem + 3vw, 1.6875rem), // 27px,
+  700: clamp(1.75rem, 0.5rem + 5vw, 2rem), // 60px,
+  800: clamp(2.25rem, .5rem + 7vw, 3.75rem), // 80px,
+  900: clamp(2.25rem, .5rem + 10vw, 5rem),
 );
 
 $fw-light: 300;
 $fw-regular: 400;
 $fw-bold: 700;
 $fw-black: 900;
-  
+
+
+
 // 0.625rem, 10px
 // 0.6875rem, 11px
 // 0.75rem, 12px
@@ -86,3 +93,4 @@ $fw-black: 900;
 // 4.875rem, 78px
 // 4.9375rem, 79px
 // 5rem, 80px
+  

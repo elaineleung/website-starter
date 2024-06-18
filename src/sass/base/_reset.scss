@@ -10,3 +10,15 @@
   font: inherit;
 }
   
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+nav {
+  ul {
+    list-style: none;
+  }
+}

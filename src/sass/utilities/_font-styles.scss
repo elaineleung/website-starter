@@ -1,0 +1,36 @@
+@use "../abstracts" as *;
+
+// font-families
+
+.ff-base {
+  font-family: $ff-base;
+}
+.ff-accent {
+  font-family: $ff-accent;
+}
+
+// font-sizes
+
+@each $size-name, $size-value in $font-sizes {
+  .fs-#{$size-name} {
+    font-size: $size-value;
+    @if $size-name > 600 {
+      line-height: 1.1;
+    }
+  }
+}
+  
+// font-weights
+
+.fw-light {
+  font-weight: $fw-light;
+}
+.fw-regular {
+  font-weight: $fw-regular;
+}
+.fw-bold {
+  font-weight: $fw-bold;
+}
+.fw-black {
+  font-weight: $fw-black;
+}

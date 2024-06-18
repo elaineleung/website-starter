@@ -1,0 +1,23 @@
+@use '../abstracts/' as *;
+
+.primary-nav {
+  --flex-column-gap: #{size(18)};
+  --flex-row-gap: #{size(4)};
+
+  @include mq(small) {
+    --flex-column-gap: #{size(48)};
+    --flex-row-gap: #{size(12)};
+  }
+
+  a {
+    text-decoration: none;
+    color: clr(neutral, 100);
+    font-family: $ff-accent;
+    font-size: fs(600);
+
+    &:is(:hover, :focus) {
+      opacity: 0.7;
+      text-decoration: underline;
+    }
+  }
+}
